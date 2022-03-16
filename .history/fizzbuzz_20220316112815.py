@@ -1,5 +1,5 @@
 
-def fbWithoutTimer(n=100, a=3, b=5):
+def fbWithTimer(n=100, a=3, b=5):
     for i in range(1, n):
         result = ""
         if i % a == 0:
@@ -8,6 +8,5 @@ def fbWithoutTimer(n=100, a=3, b=5):
             result += "buzz"
         if result == "":
             result = i
-        print(result)
             
-fbWithoutTimer()
+fbWithoutTimer

@@ -8,6 +8,5 @@ def fbWithoutTimer(n=100, a=3, b=5):
             result += "buzz"
         if result == "":
             result = i
-        print(result)
             
 fbWithoutTimer()
